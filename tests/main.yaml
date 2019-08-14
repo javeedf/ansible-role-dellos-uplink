@@ -1,0 +1,17 @@
+---
+# vars file for Dell-Networking.dellos-uplink, below gives a sample configuration
+
+# Sample variables for dellos10 device
+dellos_uplink:
+    uplink_state_group:
+      - id: 1
+        enable: True
+        uplink_type:
+          - type: "upstream"
+            intf: "port-channel1"
+            state: "present"
+          - type: "downstream"
+            intf: "ethernet1/1/2-1/1/5"
+            state: "present"
+        state: "present"
+
