@@ -106,4 +106,4 @@ When *dellos_cfg_generate* is set to true, the variable generates the configurat
 
     ansible-playbook -i hosts leaf.yaml
 
-(c) 2017 Dell Inc. or its subsidiaries. All Rights Reserved.
+(c) 2019 Dell Inc. or its subsidiaries. All Rights Reserved.
