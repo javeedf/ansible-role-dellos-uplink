@@ -1,6 +1,5 @@
 #jinja2: trim_blocks: True,lstrip_blocks: True
 {#############################################
-
 #Purpose:
 Configure uplink commands for dellos10 Devices
 
@@ -16,8 +15,6 @@ dellos_uplink:
             intf: "ethernet1/1/2-1/1/5"
             state: "present"
         state: "present"
-
-
 ###############################################}
 {% if dellos_uplink is defined and dellos_uplink %}
   {% if dellos_uplink.uplink_state_group is defined and dellos_uplink.uplink_state_group %}
